@@ -2,7 +2,7 @@
 A tool to patch the signature checks of a 64-bit ASR binary.
 
 ## Build
-`<clang/gcc> -c asr64_patcher.c -o asr64_patcher`
+`make`
 
 ## Usage
 1. Extract binary from an iOS ramdisk (macOS only):
