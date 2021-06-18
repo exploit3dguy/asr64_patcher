@@ -130,8 +130,8 @@ int get_asr_patch(void *asr, size_t len) {
 int main(int argc, char* argv[]) { 
 
 	if (argc < 3) {
-		printf("asr_patcher - easily patch ASR on 64-bit devices. By Exploit3d.\n");
-		printf("Usage: asr asr_patched\n");
+		printf("Incorrect usage!\n");
+		printf("Usage: %s [ASR] [Patched ASR]\n", argv[0]);
 		return -1;
 	}
 
